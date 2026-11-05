@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER: imagen de fondo con una capa oscura encima para que se lea el texto */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./assets/header.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Línea blanca debajo del texto del header */
+.header hr {
+  width: 60%;
+  margin: 20px auto;
+  border-color: white;
+}
+
+/* Todas las fotos de las pizzas con la misma altura */
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
